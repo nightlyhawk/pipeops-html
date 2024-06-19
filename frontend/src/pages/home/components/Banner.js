@@ -14,8 +14,8 @@ function Banner() {
           collaboration and communication. Get started with our products today!
         </p>
         <div className="flex-btn">
-          <a className="btn-1" href='#'>See pricing</a>
-          <a className="btn-2" href='#'>
+          <a className="btn-1" href='/pricing'>See pricing</a>
+          <a className="btn-2" href='/learn more'>
             Learn more{" "}
             <svg
               className="w-8 h-8 arrow"
