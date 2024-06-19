@@ -16,6 +16,8 @@ const OngoingTasks = () => {
                 return almostdone
             case "75% done":
                 return threequarter
+            default:
+              return pending
         }
     }
   return (

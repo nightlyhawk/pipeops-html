@@ -1,12 +1,3 @@
-import { 
-    Cluster,
-    Dome,
-    Home,
-    Map,
-    Pigeon,
-    Setting,
-    Tower,
-    Vault  } from "../assets/icons/js-icons";
 import bihome from '../assets/icons/bihome.svg'
 import home from '../assets/icons/home.svg'
 import cluster from '../assets/icons/cluster.svg'
