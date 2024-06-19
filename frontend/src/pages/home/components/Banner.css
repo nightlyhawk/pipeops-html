@@ -1,0 +1,155 @@
+.banner-section {
+}
+.banner-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 15% 0% 15%;
+}
+.headerText {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Sora", sans-serif;
+
+  font-weight: 600;
+  color: #333333;
+}
+.jumbotron {
+  background-color: #f3f3f3;
+  margin: 5%;
+  border-radius: 30px;
+}
+.standOut {
+  background: linear-gradient(90deg, #00b9cd 0%, #e0b5dc 57%, #333333 69.5%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.bodyText {
+  color: #333333cc;
+  line-height: 38px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.flex-btn {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4%;
+}
+.btn-1 {
+  background-color: #341949;
+  border-radius: 29px;
+  padding: 12px 45px 12px 45px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  transition: 0.5s ease-in-out;
+}
+.btn-1:hover {
+  background-color: transparent;
+  border: 1px solid #341949;
+  color: #341949;
+}
+.btn-2 {
+  position: relative;
+  /* top: 10px; */
+  text-decoration: none;
+  background: linear-gradient(
+    91.27deg,
+    #3d3280 11.73%,
+    #ef9498 54.81%,
+    #ffbd00 111.91%
+  );
+  font-family: "Inter", sans-serif;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.btn-2:hover {
+  background: linear-gradient(
+    91.27deg,
+    #ef9498 11.81%,
+    #3d3280 54.73%,
+    #ffbd00 111.91%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.arrow {
+  color: #333333;
+  font-size: 4rem;
+  display: inline-block;
+}
+.flex-contents {
+  display: grid;
+  grid-template: 1fr/1fr 1fr;
+  justify-content: space-between;
+  padding: 4%;
+}
+.hd-1 {
+  color: #333333;
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 46.4px;
+}
+.hd-2 {
+  color: #333333cc;
+  font-weight: 500;
+  font-size: 16px;
+}
+.imageContainer {
+  display: flex;
+  justify-content: end;
+}
+@media (max-width: 700px) {
+  .banner-inner {
+    padding: 22% 7% 0% 7%;
+  }
+  .headerText {
+    font-size: 30px;
+  }
+  .bodyText {
+    line-height: 27px;
+    font-size: 16px;
+  }
+  .flex-btn {
+    margin-top: 10%;
+  }
+  .btn-1 {
+    font-size: 15px;
+    padding: 9px 30px 9px 30px;
+  }
+  .btn-2 {
+    font-size: 17px;
+  }
+  .jumbotron {
+    padding: 3% 0% 0% 3%;
+  }
+  .flex-contents {
+    display: block;
+  }
+  .bigImage {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 30px;
+  }
+  .hd-1 {
+    font-size: 17px;
+    line-height: 31.4px;
+  }
+}
