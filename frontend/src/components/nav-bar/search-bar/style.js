@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const SearchWrapper = styled.div`
     display: flex;
     background: var(--glass);
-    width: 64%;
+    width: 74%;
     border: none;
     border-radius: 11px;
     height: 30px;

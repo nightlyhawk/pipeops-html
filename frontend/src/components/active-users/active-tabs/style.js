@@ -10,6 +10,7 @@ export const ActiveItemWrapper = styled.div`
 export const ActiveItem = styled.div`
     display: flex;
     justify-content: ${props => props.icon? '' : 'space-between'};
+    gap: ${props => props.icon? '2%' : ''};
     align-items: center;
 `
 

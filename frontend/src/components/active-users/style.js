@@ -9,10 +9,10 @@ export const ActiveContainer = styled.div`
     background-color: var(--pinkwhite);
     padding: 6% 3% 1% 3%;
     gap: 5%;
-
+    margin-right: 2%;
     &.three {
         grid-column: 3 / 4;
-        grid-row: 1 / 4;
+        grid-row: 1 / 3;
     }
 `
 
