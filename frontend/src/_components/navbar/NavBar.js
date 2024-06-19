@@ -1,7 +1,9 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom'
 import "./NavBar.css";
 
 function NavBar() {
+  const navigate = useNavigate();
   return (
     <div>
       <nav className="navbar fixed w-full z-20 top-0 start-0">
@@ -14,10 +16,10 @@ function NavBar() {
             <span className="site-name">PURPLEBOTS.CO</span>
           </a>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <button type="button" className="sign-up">
+            <button type="button" className="sign-up" onClick={() => navigate('/signup')}>
               Sign up
             </button>
-            <button type="button" className="sign-up">
+            <button type="button" className="sign-up" onClick={() => navigate('/signin')}>
               Login
             </button>
             <button

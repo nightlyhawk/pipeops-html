@@ -23,13 +23,13 @@ function Footer() {
                 <h2 class="mb-6 text-lg font-semibold text-white">Company</h2>
                 <ul class="text-white font-semibold">
                   <li class="mb-4">
-                    <a class="hover:underline">About Us</a>
+                    <a href="/about us" class="hover:underline">About Us</a>
                   </li>
                   <li class="mb-4">
-                    <a class="hover:underline">Agents</a>
+                    <a href="/agents" class="hover:underline">Agents</a>
                   </li>
                   <li>
-                    <a class="hover:underline">Listings</a>
+                    <a href="/listings" class="hover:underline">Listings</a>
                   </li>
                 </ul>
               </div>
@@ -37,13 +37,13 @@ function Footer() {
                 <h2 class="mb-6 text-lg font-semibold text-white">Support</h2>
                 <ul class="text-white font-semibold">
                   <li class="mb-4">
-                    <a class="hover:underline ">Help Centre</a>
+                    <a href="/help" class="hover:underline ">Help Centre</a>
                   </li>
                   <li class="mb-4">
-                    <a class="hover:underline">FAQs</a>
+                    <a href="/faqs" class="hover:underline">FAQs</a>
                   </li>
                   <li class="mb-4">
-                    <a class="hover:underline">Call centre</a>
+                    <a href="/call centre" class="hover:underline">Call centre</a>
                   </li>
                 </ul>
               </div>
@@ -52,15 +52,15 @@ function Footer() {
 
                 <ul class="text-white font-semibold">
                   <li class="mb-4">
-                    <a class="hover:underline">What new</a>
+                    <a href="/new" class="hover:underline">What new</a>
                   </li>
                   <li class="mb-4">
-                    <a href="#" class="hover:underline">
+                    <a href="/blog" class="hover:underline">
                       Blog{" "}
                     </a>
                   </li>
                   <li class="mb-4">
-                    <a href="#" class="hover:underline">
+                    <a href="/categories" class="hover:underline">
                       Categories{" "}
                     </a>
                   </li>
