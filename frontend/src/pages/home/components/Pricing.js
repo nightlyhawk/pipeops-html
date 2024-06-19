@@ -13,7 +13,7 @@ const PricingCard = ({
 }) => {
   return (
     <div
-      className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow "
+      className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg"
       style={{ backgroundColor: background, color: color }}
     >
       <h3 className="mb-4 text-2xl font-semibold">{title}</h3>

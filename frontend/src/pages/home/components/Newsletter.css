@@ -1,0 +1,11 @@
+.newsLetter {
+  padding: 1% 5% 7% 5%;
+}
+.inputBox {
+  background-color: hsla(249, 44%, 47%, 7%) !important;
+}
+@media (max-width: 700px) {
+  .newsLetter {
+    padding-top: 10%;
+  }
+}

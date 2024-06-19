@@ -1,0 +1,37 @@
+.Footer {
+  display: grid;
+  grid-template: 1fr/0.8fr 1fr;
+  padding: 4% 3% 9% 3%;
+  gap: 20px;
+}
+footer {
+  background-color: #341949;
+  background-image: url("./footer.png");
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: repeat;
+}
+.footerBody {
+  padding: 4% 3% 2% 0;
+  color: #faf2ffcc;
+  font-weight: 500;
+  font-size: 17px;
+}
+.site-name-white {
+  line-height: 38.16px;
+  font-weight: 800;
+  font-size: 20px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+@media (max-width: 900px) {
+  .site-name {
+    font-size: 18px;
+  }
+  .Footer {
+    display: block;
+  }
+  footer {
+    background-repeat: no-repeat;
+  }
+}

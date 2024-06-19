@@ -2,9 +2,9 @@
   background-color: #f1f1f1;
 }
 .sign-up {
-  border: 1.5px solid #5243ac;
+  border: 1.5px solid #3d3741;
   border-radius: 54px;
-  color: #5243ac;
+  color: #3d3741;
   padding: 4px 30px 4px 30px;
   margin-right: 10px;
   font-size: 16px;
@@ -13,7 +13,7 @@
   transition: 0.5s ease-in-out;
 }
 .sign-up:hover {
-  background-color: #5243ac;
+  background-color: #3d3741;
   color: #fff;
 }
 
@@ -21,7 +21,7 @@
   line-height: 38.16px;
   font-weight: 800;
   font-size: 20px;
-  color: #341949;
+  color: #3d3741;
   font-family: "Inter", sans-serif;
 }
 .mobile {
