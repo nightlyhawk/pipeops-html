@@ -5,7 +5,7 @@ function Banner() {
   return (
     <div className="banner-section">
       <div className="banner-inner">
-        <h1 className="headerText">
+        <h1 className="headerTex">
           <span className="standOut">Beyond Horizon;</span> Keeping your staff
           on top of things
         </h1>
