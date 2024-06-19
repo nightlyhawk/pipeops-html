@@ -4,8 +4,9 @@ import styled from 'styled-components'
 
 export const PageWrapper = styled.section`
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 3;
+    grid-template-columns: 1fr 1fr 250px;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2%;
 
     &.base_three {
         grid-column: 2 / 4;

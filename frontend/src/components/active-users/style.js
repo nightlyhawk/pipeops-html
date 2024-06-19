@@ -6,14 +6,17 @@ export const ActiveContainer = styled.div`
     flex-direction: column;
     border: none;
     border-radius: 11px;
-    background-color: var(--pink-white);
-    width: 20%;
+    background-color: var(--pinkwhite);
+    padding: 6% 3% 1% 3%;
+    gap: 5%;
 
     &.three {
-        grid-column: 2 / 3;
-        grid-row: 1 / 3
+        grid-column: 3 / 4;
+        grid-row: 1 / 4;
     }
 `
 
-export const ActiveContainerHeader = styled.h2``
+export const ActiveContainerHeader = styled.h2`
+    margin-bottom: 4%;
+`
 

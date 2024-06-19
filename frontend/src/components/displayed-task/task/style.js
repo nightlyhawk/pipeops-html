@@ -6,11 +6,17 @@ export const TaskWrapper = styled.div`
     flex-direction: column;
     border: none;
     border-radius: 11px;
-    background-color: var(--transparent);
+    width: 32%;
+    justify-content: space-between;
+    padding: 2%;
+    background-color: var(--glass);
 `
 
 export const TaskHeader = styled.h3`
     color: var(--secondary);
+    display: flex;
+    display: flex;
+    gap: 2%;
 `
 
 export const TaskIcon = styled.img`

@@ -6,7 +6,8 @@ export const CreateWrapper = styled.button`
     background-color: var(--purple);
     border: none;
     border-radius: 11px;
-    height: 120px;
+    height: 168px;
+    width: 31%;
 `
 export const CreateText = styled.p``
 
