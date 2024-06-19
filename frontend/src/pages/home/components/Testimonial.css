@@ -1,0 +1,66 @@
+.testimonial-container {
+  padding: 4% 5% 7% 3.75%;
+}
+.testimonial-header {
+}
+.testBox {
+  padding-top: 2% !important;
+  border-radius: 31px;
+}
+.qoute .active {
+  color: #faf2ff !important;
+}
+.qoute {
+  float: right !important;
+  margin-right: auto;
+}
+.testBox .ctive {
+  background-color: #3d3741;
+}
+.testBody {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.testHead {
+  font-family: 18px;
+  margin-top: 30px;
+}
+.testImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.hd-10 {
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  color: #333;
+}
+.hd-11 {
+  color: #333333cc;
+  font-weight: 500;
+  font-size: 18px;
+}
+.testSrc {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.flexCont {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+@media (max-width: 700px) {
+  .testBox {
+    width: 85% !important;
+  }
+  .hd-10 {
+    font-size: 20px;
+  }
+  .hd-11 {
+    font-size: 15px;
+    margin: 10px 0 15px 0;
+  }
+}

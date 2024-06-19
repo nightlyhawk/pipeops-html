@@ -20,6 +20,9 @@
   margin: 5%;
   border-radius: 30px;
 }
+.bigImage {
+  width: 70%;
+}
 .standOut {
   background: linear-gradient(90deg, #00b9cd 0%, #e0b5dc 57%, #333333 69.5%);
   -webkit-background-clip: text;
@@ -151,5 +154,8 @@
   .hd-1 {
     font-size: 17px;
     line-height: 31.4px;
+  }
+  .bigImage {
+    width: unset;
   }
 }

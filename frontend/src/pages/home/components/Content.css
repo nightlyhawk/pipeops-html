@@ -11,19 +11,19 @@
 }
 .content-box {
   display: grid;
-  grid-template: 1fr 1fr/1fr 1fr;
-  gap: 40px;
+  grid-template: 1fr /1fr 1fr 1fr 1fr;
+  gap: 10px;
   margin: 2% 0 2% 0;
 }
 .box-1 {
   background-color: #3d3280;
-  border-radius: 44px;
+  border-radius: 20px;
   padding: 15% 5% 7% 5%;
   transition: 0.5s ease-in-out;
 }
 .box-2 {
   background-color: #2e2832;
-  border-radius: 44px;
+  border-radius: 20px;
   padding: 15% 5% 7% 5%;
 }
 .box-1:hover {
@@ -49,12 +49,12 @@
 }
 .box-3 {
   background-color: #36343d;
-  border-radius: 44px;
+  border-radius: 20px;
   padding: 15% 5% 7% 5%;
 }
 .box-4 {
   background-color: #023047;
-  border-radius: 44px;
+  border-radius: 20px;
   padding: 15% 5% 7% 5%;
 }
 .image-container {
@@ -63,21 +63,22 @@
 }
 .hd-0 {
   color: #faf2ff;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   font-family: "Sora", sans-serif;
   margin-top: 20px;
   line-height: 36px;
 }
 .body {
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 10px;
   font-weight: 500;
+  line-height: 30px;
   font-family: "Sora", sans-serif;
 
   color: #faf2ffcc;
 }
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   .content-box {
     display: block;
   }
