@@ -8,7 +8,7 @@ import {
 import './App.css';
 import Home from "./pages/home/Home";
 import { ThemeProvider } from 'styled-components'
-import Base from "./pages/base";
+import DashnoardBase from "./pages/base";
 import Overview from "./pages/overview";
 
 
@@ -17,7 +17,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
       <Route path="/" element={<Home />} />
-      <Route path="/dashboard" element={<Base />} >
+      <Route path="/dashboard" element={<DashnoardBase />} >
         <Route path="overview" element={<Overview />} />
       </Route>
     </Route>
