@@ -1,0 +1,17 @@
+:root {
+  --primary: #341949;
+  --secondary: white;
+  --transparent: transparent;
+  --purple: #D7BCE8;
+  --peach: #FDE2FF;
+  --pinkwhite: #FAF2FF;
+  --green: #158E01;
+  --gold: #FF8D05;
+  --glass: rgba(255, 255, 255, .1);
+  --shadow: rgba(0, 0, 0, .2);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
