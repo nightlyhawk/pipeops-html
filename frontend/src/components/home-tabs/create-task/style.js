@@ -8,6 +8,8 @@ export const CreateWrapper = styled.button`
     border-radius: 11px;
     height: 168px;
     width: 31%;
+    align-items: center;
+    justify-content: center;
 `
 export const CreateText = styled.p``
 
