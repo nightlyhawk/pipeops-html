@@ -12,7 +12,6 @@
 }
 
 body {
-  background-color: var(--primary);
   font-family: "Inter", sans-serif;
   font-weight: 500;
 }
