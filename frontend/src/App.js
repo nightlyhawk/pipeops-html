@@ -10,6 +10,7 @@ import Home from "./pages/home/Home";
 import { ThemeProvider } from 'styled-components'
 import DashnoardBase from "./pages/base";
 import Overview from "./pages/overview";
+import SignInPage from "./pages/signin";
 
 
 
@@ -17,6 +18,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
       <Route path="/" element={<Home />} />
+      <Route path="/signin" element={<SignInPage />} />
       <Route path="/dashboard" element={<DashnoardBase />} >
         <Route path="" element={<Overview />} />
       </Route>
