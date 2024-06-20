@@ -12,7 +12,7 @@ import dome from '../assets/icons/dome.svg'
 export const top_data = [
     {
         title: 'Overview',
-        href: '/',
+        href: '/dashboard',
         icon: home,
         bicon: bihome
     },

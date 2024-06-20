@@ -4,7 +4,6 @@ import styled from 'styled-components'
 export const MenuBarContainer = styled.div`
     display: flex;
     flex-direction: column;
-    height: 80vh;
     justify-content: space-between;
     
     &.base_two {
@@ -16,9 +15,11 @@ export const MenuBarContainer = styled.div`
 export const MenuInnerContainer = styled.div`
     display: flex;
     flex-direction: column;
+    gap: 2rem;
 `
 
 export const MenuTitle = styled.p`
     padding: 0 9%;
     color: var(--pinkwhite);
+    font-size: small;
 `

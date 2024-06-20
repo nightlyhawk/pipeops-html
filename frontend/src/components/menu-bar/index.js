@@ -10,7 +10,7 @@ import logout from '../../assets/icons/logout.svg'
 
 const MenuBar = ({props}) => {
     const location = useLocation();
-    const pathname = location.pathname
+    const pathname = location.pathname;
   return (
     <MenuBarContainer className='base_two'>
         <MenuInnerContainer>
@@ -18,9 +18,9 @@ const MenuBar = ({props}) => {
             <MenuTitle>Home</MenuTitle>
             {
                 top_data.map((item, i) => {
-                    const isActive =  pathname.startsWith(item.href)
+                    const isActive =  pathname.startsWith(item.href);
                     return (
-                        <MenuTab key={i} src={isActive? item.bicon : item.icon} className={isActive? 'active' : '' } title={item.title} />
+                        <MenuTab key={i} src={isActive? item.bicon : item.icon} className={isActive? 'active' : '' } href={item.href} title={item.title} />
                     )
                     
                 })
