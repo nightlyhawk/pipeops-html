@@ -10,7 +10,7 @@ function Footer() {
             <div class="mb-6 md:mb-0">
               <a href="/" class="flex items-center">
                 <img src="logo.png" class="mr-3 h-8" alt="Edu suite Logo" />
-                <span className="site-name-white">PURPLEBOTS.CO</span>
+                <span className="site-name-white">PURPLEEDUSUITE</span>
               </a>
               <p className="footerBody block">
                 A platform to keep everyone in the loop and up to date while

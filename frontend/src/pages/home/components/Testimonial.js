@@ -45,7 +45,7 @@ const TestimonialCard = ({
           <span className="testSrc">{source}</span>
         </div>
         <div className="flx-1">
-          <img src={authorImage} className="testImage" alt="author image"></img>
+          <img src={authorImage} className="testImage" alt="author"></img>
         </div>
       </div>
     </div>

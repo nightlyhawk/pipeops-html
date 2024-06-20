@@ -13,7 +13,7 @@ function NavBar() {
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img src="logo.png" className="h-9" alt="purplebots Logo" />
-            <span className="site-name">PURPLEBOTS.CO</span>
+            <span className="site-name">PURPLEEDUSUITE</span>
           </a>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <button type="button" className="sign-up" onClick={() => navigate('/signup')}>

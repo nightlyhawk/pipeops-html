@@ -22,7 +22,7 @@ const PricingCard = ({
         <span className="mr-2 text-4xl font-bold">${price}</span>
         <span>/month</span>
       </div>
-      <ul role="list" className="mb-8 space-y-4 text-left">
+      <ul className="mb-8 space-y-4 text-left">
         {features.map((feature, index) => (
           <li key={index} className="flex items-center space-x-3">
             <svg

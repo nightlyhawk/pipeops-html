@@ -6,7 +6,7 @@ const Logo = () => {
   return (
     <LogoWrapper>
         <LogoIcon src={logo} alt='logo' />
-        <LogoLink to='/'>PURPLEBOTS.CO</LogoLink>
+        <LogoLink to='/'>PURPLEEDUSUITE</LogoLink>
     </LogoWrapper>
   )
 }
