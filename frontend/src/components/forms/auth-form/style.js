@@ -23,11 +23,12 @@ export const FormText = styled.p`
 export const FormInput = styled.input`
     border: 1px solid var(--primary);
     background-color: var(--transparent);
-    padding-left: 4%;
-    height: 40px;
-    width: 100%;
+    padding-left: ${props => props.padding || '4%'};
+    height: ${props => props.height || '40px'};
+    width: ${props => props.width || '100%'};
     border-radius: 6px;
     margin-bottom: 3%;
+    margin-top: 0.8%;
 `
 export const FormContainer = styled.form`
     width: 72%;
@@ -52,7 +53,10 @@ export const FormLabel = styled.label``
 
 export const FormExtras = styled.div`
     display: flex;
-    justify-content: space-between;
+    flex-direction: ${props => props.direction};
+    width: ${props => props.width};
+    justify-content: ${props => props.justify || 'space-between'};
+    gap: 1%;
 `
 export const FormIcon = styled.img`
     height: 20px;

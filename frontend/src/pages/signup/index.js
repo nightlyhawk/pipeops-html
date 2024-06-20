@@ -1,15 +1,15 @@
 import React from 'react'
 import AuthForm from '../../components/forms/auth-form'
-import { SigninWrapper } from './style'
+import { SignupWrapper } from './style'
 import AuthBanner from '../../components/auth-banner'
 
-const SignInPage = () => {
+const SignUpPage = () => {
   return (
-    <SigninWrapper>
+    <SignupWrapper>
         <AuthBanner />
-        <AuthForm text={'Sign in'} />
-    </SigninWrapper>
+        <AuthForm text={'Sign up'} />
+    </SignupWrapper>
   )
 }
 
-export default SignInPage
+export default SignUpPage

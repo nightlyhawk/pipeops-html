@@ -9,6 +9,7 @@ export const BannerWrapper = styled.div`
 export const BannerRow = styled.div`
     display: flex;
     gap: 1%;
+    padding: 2%;
 `
 export const BannerIcon = styled.img`
     height: 20px;

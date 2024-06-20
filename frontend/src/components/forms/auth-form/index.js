@@ -1,29 +1,30 @@
 import React from 'react'
-import { FormButton, FormContainer, FormExtras, FormHeader, FormIcon, FormLink, FormText, FormWrapper } from './style'
+import { FormButton, FormContainer, FormExtras, FormHeader, FormIcon, FormInput, FormLabel, FormLink, FormText, FormWrapper } from './style'
 import SignIn from './signin'
 import google from '../../../assets/icons/google.svg'
 import facebook from '../../../assets/icons/facebook.svg'
 import { useNavigate } from 'react-router-dom'
+import SignUp from './signup'
 
 const AuthForm = ({text}) => {
     const navigate = useNavigate();
     function handleSubmit(e){
         e.preventDefault();
-        navigate('/dashboard')
+        navigate('/dashboard');
     }
     let heading;
     let subText;
     let extraOption;
 
     switch(text){
-        case "signin":
+        case "Sign in":
             heading = 'SIGN IN'
             subText = 'New user? create an account'
             extraOption = true
             break;
-        case "signup":
+        case "Sign up":
             heading = 'SIGN UP'
-            subText = 'Create an account'
+            subText = 'Create An Account'
             extraOption = false
             break;
         default:
@@ -37,23 +38,28 @@ const AuthForm = ({text}) => {
         <FormHeader>{heading}</FormHeader>
         <FormText>{subText}</FormText>
         <FormContainer onSubmit={handleSubmit}>
-            {extraOption &&
-                <>
-                    <SignIn />
-                    <FormExtras>
-                        <FormLink>Forgot password?</FormLink>
-                        <FormButton width='20%' type='submit'>Sign in</FormButton>
-                    </FormExtras>
-                </>
-            }
+            <SignIn />
+            {!extraOption && <SignUp />}
+            <FormExtras justify={!extraOption && 'end'}>
+                {extraOption && <FormLink>Forgot password?</FormLink>}
+                <FormButton width='20%' type='submit'>{text}</FormButton>
+            </FormExtras>
         </FormContainer>
         {extraOption &&
             <>
                 <FormButton outline='true' width='35%' >Sign in using Google <FormIcon src={google} /></FormButton>
                 <FormButton outline='true' width='35%' >Sign in using Facebook <FormIcon src={facebook} /> </FormButton>
-                <FormText width='72%'>Protected by <strong>reCAPTCHA</strong> and subjected to <strong>PURPLEDUSUITE terms and conditions</strong>, and <strong>privacy policies</strong>.</FormText>
             </>
         }
+        {!extraOption && 
+            <FormExtras width='72%'>
+                <FormInput type='checkbox' id='terms' height='15px' width='16px' padding='0' />
+                <FormLabel for='terms'>
+                    By clicking, you agree to our privacy policies, terms and conditions, anti-money laundering policies, and information policies.
+                </FormLabel>
+            </FormExtras>
+        }
+        <FormText width='72%'>Protected by <strong>reCAPTCHA</strong> and subjected to <strong>PURPLEDUSUITE terms and conditions</strong>, and <strong>privacy policies</strong>.</FormText>
     </FormWrapper>
   )
 }
