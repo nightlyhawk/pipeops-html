@@ -1,5 +1,15 @@
 import React from 'react'
-import { FormButton, FormContainer, FormExtras, FormHeader, FormIcon, FormInput, FormLabel, FormLink, FormText, FormWrapper } from './style'
+import { 
+    FormButton, 
+    FormContainer, 
+    FormExtras, 
+    FormHeader, 
+    FormIcon, 
+    FormInput, 
+    FormLabel, 
+    FormLink, 
+    FormText, 
+    FormWrapper } from '../style'
 import SignIn from './signin'
 import google from '../../../assets/icons/google.svg'
 import facebook from '../../../assets/icons/facebook.svg'
@@ -35,7 +45,7 @@ const AuthForm = ({text}) => {
     }
   return (
     <FormWrapper>
-        <FormHeader>{heading}</FormHeader>
+        <FormHeader size='40px'>{heading}</FormHeader>
         <FormText>{subText}</FormText>
         <FormContainer onSubmit={handleSubmit}>
             <SignIn />

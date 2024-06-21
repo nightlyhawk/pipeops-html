@@ -35,3 +35,41 @@ export const task_data = [
         received: '30 minutes ago'
     },
 ]
+
+export const ongoing_data = [
+    {
+        task: 'Result collation: Meeting with senate members',
+        date: '20/06/2024',
+        status: 'ongoing'
+    },
+    {
+        task: 'Result collation: Meeting with senate members',
+        date: '20/06/2024',
+        status: 'ongoing'
+    },
+    {
+        task: 'Result collation: Meeting with senate members',
+        date: '20/06/2024',
+        status: 'ongoing'
+    },
+    {
+        task: 'Result collation: Meeting with senate members',
+        date: '20/06/2024',
+        status: 'ongoing'
+    },
+    {
+        task: 'Result collation: Meeting with senate members',
+        date: '20/06/2024',
+        status: 'completed'
+    },
+    {
+        task: 'Result collation: Meeting with senate members',
+        date: '20/06/2024',
+        status: 'completed'
+    },
+    {
+        task: 'Result collation: Meeting with senate members',
+        date: '20/06/2024',
+        status: 'completed'
+    },
+]

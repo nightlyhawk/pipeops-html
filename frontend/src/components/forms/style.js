@@ -6,13 +6,15 @@ export const FormWrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5% 0%;
-    width: 50%;
+    padding: ${props => props.color? '2%' : '5% 0%'};
+    background-color: ${props => props.color};
+    width: ${props => props.width || '50%'};
     gap: 2%;
 `
 export const FormHeader = styled.h1`
     color: var(--primary);
-    font-size: 40px;
+    font-size: ${props => props.size};
+    align-self: ${props => props.size? '' : 'flex-start'};
     font-weight: 700;
 `
 export const FormText = styled.p`
@@ -31,7 +33,10 @@ export const FormInput = styled.input`
     margin-top: 0.8%;
 `
 export const FormContainer = styled.form`
-    width: 72%;
+    display: flex;
+    flex-direction: column;
+    width: ${props => props.task? '100%' : '72%'};
+    gap: 1rem;
 `
 
 export const FormButton = styled.button`

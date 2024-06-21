@@ -1,5 +1,7 @@
 import React from 'react'
-import { FormInput, FormLabel } from '../style'
+import { 
+  FormInput, 
+  FormLabel } from '../../style'
 
 const SignIn = () => {
   return (

@@ -12,6 +12,7 @@ import DashnoardBase from "./pages/base";
 import Overview from "./pages/overview";
 import SignInPage from "./pages/signin";
 import SignUpPage from "./pages/signup";
+import DoMe from "./pages/dome";
 
 
 
@@ -23,6 +24,7 @@ const router = createBrowserRouter(
       <Route path="/signup" element={<SignUpPage />} />
       <Route path="/dashboard" element={<DashnoardBase />} >
         <Route path="" element={<Overview />} />
+        <Route path="do_me" element={<DoMe />} />
       </Route>
     </Route>
 
@@ -30,11 +32,20 @@ const router = createBrowserRouter(
 )
 function App() {
   const theme = {
-    primary: '#341949',
-    secondary: 'white',
-    grain: '#FAF2FF',
-    green: '#158E01',
-    gold: '#FF8D05'
+    light: {
+      primary: '#341949',
+      secondary: 'white',
+      pinkwhite: '#FAF2FF',
+      green: '#158E01',
+      gold: '#FF8D05'
+    },
+    dark: {
+      primary: 'white',
+      secondary: '#341949',
+      pinkwhite: '#FAF2FF',
+      green: '#158E01',
+      gold: '#FF8D05'
+    }
   }
   return (
     <ThemeProvider theme={theme}>

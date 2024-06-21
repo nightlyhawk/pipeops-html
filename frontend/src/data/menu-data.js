@@ -35,7 +35,7 @@ export const bottom_data = [
 
     {
         title: "DoMe",
-        href: "/dome",
+        href: "do_me",
         icon: dome
     },
 

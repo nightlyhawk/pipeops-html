@@ -1,5 +1,8 @@
 import React from 'react'
-import { FormExtras, FormInput, FormLabel } from '../style'
+import { 
+  FormExtras, 
+  FormInput, 
+  FormLabel } from '../../style'
 
 const SignUp = () => {
   return (
