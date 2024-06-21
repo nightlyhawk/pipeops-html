@@ -13,10 +13,10 @@ export const MenuWrapper = styled.div`
 `
 
 export const MenuLink = styled(Link)`
-    color: var(--glass);
+    color: ${props => props.theme.status === 'dark'? 'var(--glass)' : '#33333399'};
     text-decoration: none;
     &.active {
-        color: var(--secondary);
+        color: ${props => props.theme.status === 'dark'? 'var(--secondary)' : 'black'};
     }
 `
 

@@ -4,7 +4,7 @@ import { NavLink as Link } from 'react-router-dom'
 
 export const LogoLink = styled(Link)`
     text-decoration: none;
-    color: var(--pinkwhite);
+    color: ${props => props.theme.status === 'light'? 'black' : 'var(--pinkwhite)'};
 `
 
 export const LogoIcon = styled.img`

@@ -25,7 +25,7 @@ const TaskForm = () => {
     
   return (
     <FormWrapper width='60%' color='white'>
-        <FormHeader>NEW TASK DETAILS</FormHeader>
+        <FormHeader color='black'>NEW TASK DETAILS</FormHeader>
         <FormContainer task='true' onSubmit={handleSubmit}>
             <FormLabel for='taskTitle'>Task Title</FormLabel>
             <FormInput type='text' id='taskTitle' name='taskTitle' placeholder='Name this task' required/>

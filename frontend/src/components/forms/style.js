@@ -12,7 +12,7 @@ export const FormWrapper = styled.div`
     gap: 2%;
 `
 export const FormHeader = styled.h1`
-    color: var(--primary);
+    color: ${props => props.color || 'var(--primary)'};
     font-size: ${props => props.size};
     align-self: ${props => props.size? '' : 'flex-start'};
     font-weight: 700;

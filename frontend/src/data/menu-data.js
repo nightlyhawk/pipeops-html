@@ -8,19 +8,30 @@ import settings from '../assets/icons/settings.svg'
 import bisettings from '../assets/icons/bisettings.svg'
 import tower from '../assets/icons/tower.svg'
 import dome from '../assets/icons/dome.svg'
+import {
+    Home,
+    Cluster,
+    Vault,
+    Pigeon,
+    Map,
+    Setting,
+    Tower,
+    Dome,
+    Logout
+} from '../assets/icons/js-icons'
 
 export const top_data = [
     {
         title: 'Overview',
         href: '/dashboard',
-        icon: home,
+        icon: Home,
         bicon: bihome
     },
 
     {
         title: "Settings",
-        href: "/settings",
-        icon: settings,
+        href: "settings",
+        icon: Setting,
         bicon: bisettings
     }
 ]
@@ -29,37 +40,37 @@ export const bottom_data = [
     
     {
         title: "Pigeon Hole",
-        href: "/pigeon hole",
-        icon: pigeon
+        href: "pigeon_hole",
+        icon: Pigeon
     },
 
     {
         title: "DoMe",
         href: "do_me",
-        icon: dome
+        icon: Dome
     },
 
     {
         title: "The Box",
-        href: "/the box",
-        icon: vault
+        href: "the_box",
+        icon: Vault
     },
 
     {
         title: "Watch Tower",
-        href: "/watch tower",
-        icon: tower
+        href: "watch_tower",
+        icon: Tower
     },
 
     {
         title: "Institution Map",
-        href: "/institution map",
-        icon: map
+        href: "institution_map",
+        icon: Map
     },
 
     {
         title: "Cluster",
-        href: "/cluster",
-        icon: cluster
+        href: "cluster",
+        icon: Cluster
     }
 ]

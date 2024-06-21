@@ -7,11 +7,11 @@
   --pinkwhite: #FAF2FF;
   --green: #158E01;
   --gold: #FF8D05;
-  --glass: rgba(255, 255, 255, .1);
+  --glass: #83768C73;
   --shadow: rgba(0, 0, 0, .2);
 }
-
+/* rgba(255, 255, 255, .1) */
 body {
   font-family: "Inter", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
 }

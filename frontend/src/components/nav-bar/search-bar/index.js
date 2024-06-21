@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { SearchIcon, SearchInput, SearchWrapper } from './style'
-import search from '../../../assets/icons/search.svg'
+import { Search } from '../../../assets/icons/js-icons'
+import { ThemeDataContext } from '../../../context/themeContext'
 
 const SearchBar = () => {
+  const { themestatus } = useContext(ThemeDataContext)
   return (
     <SearchWrapper>
-        <SearchIcon src={search} alt="search" />
+        <Search color={themestatus === 'dark'? 'white' : 'purple'} />
         <SearchInput placeholder='search...' name='search' />
     </SearchWrapper>
   )

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const SearchWrapper = styled.div`
     display: flex;
-    background: var(--glass);
+    background: ${props => props.theme.status === 'light'? 'white' : 'var(--glass)'};
     width: 74%;
     border: none;
     border-radius: 11px;
@@ -11,7 +11,6 @@ export const SearchWrapper = styled.div`
     padding-left: 1%;
     font-size: 10px;
     align-items: center;
-    box-shadow: 0 25px 45px var(--shadow);
     backdrop-filter: blur(8px);
 `
 
