@@ -15,7 +15,8 @@ const DahboardBase = () => {
     }else if(location.pathname.endsWith('do_me')){
       setThemeStatus('light');
     }
-  }, [location.pathname])
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
   const theme = {
     dark: {
       primary: '#341949',
