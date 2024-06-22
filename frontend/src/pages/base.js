@@ -14,9 +14,8 @@ const DahboardBase = () => {
       setThemeStatus('dark');
     }else if(location.pathname.endsWith('do_me')){
       setThemeStatus('light');
-      console.log("fff")
     }
-  }, [])
+  }, [location.pathname])
   const theme = {
     dark: {
       primary: '#341949',

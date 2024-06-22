@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { SearchIcon, SearchInput, SearchWrapper } from './style'
+import { SearchInput, SearchWrapper } from './style'
 import { Search } from '../../../assets/icons/js-icons'
 import { ThemeDataContext } from '../../../context/themeContext'
 

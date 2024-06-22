@@ -5,11 +5,8 @@ import {
     FormContainer, 
     FormExtras, 
     FormHeader, 
-    FormIcon, 
     FormInput, 
-    FormLabel, 
-    FormLink, 
-    FormText, 
+    FormLabel,  
     FormWrapper } from '../style'
 import { FormTextArea } from './style';
 
