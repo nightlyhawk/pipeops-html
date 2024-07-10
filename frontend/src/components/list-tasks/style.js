@@ -8,9 +8,12 @@ export const TaskContainer = styled.section`
     background-color: var(--primary);
     border: none;
     border-radius: 9px;
-    width: 36%;
     padding: 2%;
     gap: 1rem;
+    &.task_left {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
 `
 export const TaskHeader = styled.div`
     display: flex;

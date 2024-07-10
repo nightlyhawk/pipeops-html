@@ -44,7 +44,7 @@ const AuthForm = ({text}) => {
             break;
     }
   return (
-    <FormWrapper>
+    <FormWrapper width='50%'>
         <FormHeader size='40px'>{heading}</FormHeader>
         <FormText>{subText}</FormText>
         <FormContainer onSubmit={handleSubmit}>

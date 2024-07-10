@@ -8,7 +8,7 @@ export const FormWrapper = styled.div`
     align-items: center;
     padding: ${props => props.color? '2%' : '5% 0%'};
     background-color: ${props => props.color};
-    width: ${props => props.width || '50%'};
+    width: ${props => props.width};
     gap: 2%;
 `
 export const FormHeader = styled.h1`

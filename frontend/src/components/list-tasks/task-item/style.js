@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const TaskWrapper = styled.div`
     display: flex;
-    gap: 2%;
+    justify-content: space-evenly;
     padding: 2%;
     border: none;
     border-radius: 9px;
@@ -28,8 +28,9 @@ export const TaskButton = styled.button`
     border-radius: 15px;
     color: var(--primary);
     background-color: var(--secondary);
-    width: 23%;
-    height: 30px;
+    width: 27%;
+    font-size: small;
+    height: 25px;
     align-self: flex-end;
 `
 export const TaskDetails = styled.div`

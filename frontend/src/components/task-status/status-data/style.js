@@ -5,11 +5,11 @@ export const TableWrapper = styled.div`
     display: flex;
     flex-direction: column;
     border-radius: 4px;
-    padding: 7% 3%;
     margin-bottom: 2%;
 
-    &.four {
+    &.statustables {
         grid-column: 1 / 3;
-        grid-row: 3 / 4;
+        grid-row: 2 / 3;
     }
 `
+export const Heading = styled.h4``

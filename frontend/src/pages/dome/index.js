@@ -1,13 +1,13 @@
 import React from 'react'
 import { Wrapper } from './style'
-import TaskList from '../../components/list-tasks'
-import TaskForm from '../../components/forms/task-form'
+import AllStatus from '../../components/task-status'
+import { Outlet } from 'react-router-dom'
 
 const DoMe = () => {
   return (
     <Wrapper className='base_three'>
-        <TaskForm />
-        <TaskList />
+        <AllStatus data={[{title: 'Total tasks', count: '205'}, {title: 'Ongoing tasks', count: '205'}, {title: 'Completed tasks', count: '205'}, {title: 'Pending tasks', count: '205'},]}/>
+        <Outlet />
     </Wrapper>
   )
 }
